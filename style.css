@@ -1,9 +1,11 @@
-.bar {
-  background-color: deeppink;
-  width: 100px;
+#bar_holder {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 5px;
+  margin: 5px;
 }
 
-#bar {
-  background-color: deepskyblue;
-  width: 100px;
+.bar {
+  background-color: deeppink;
+  width: 50px;
 }
