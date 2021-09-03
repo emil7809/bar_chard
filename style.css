@@ -1,11 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
 #bar_holder {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 5px;
-  margin: 5px;
+  display: flex;
+  align-items: flex-end;
+  width: 90vw;
+  height: 500px;
+  background-color: rgb(0, 18, 26);
 }
 
 .bar {
+  width: 4vw;
+  margin: 5px;
   background-color: deeppink;
-  width: 50px;
 }
